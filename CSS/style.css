@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@700&display=swap');
+.logo{
+    display: block;
+    margin: 10px auto;
+    height: 140px;
+    width: 140px;
+    
+}
+/* body {
+  height: 100vh;
+  background-image: linear-gradient(white,rgb(233, 233, 233,10));
+  
+  padding: 0px;
+  margin: 0px;
+  background-repeat: no-repeat;
+  
+} */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #9A9483; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+h1 {
+  margin-top: 20px;
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: black;
+  
+}
+
+.container {
+  width: 60%;
+  margin: auto;
+  height: 500px;
+  padding: 33px;
+  overflow-y: auto;
+  margin-bottom: 100px;
+  
+  background-image: url(/images/bg3.jpg);
+  background-size:cover;
+  border-radius: 30px;
+  
+   
+}
+.send {
+  margin-top: -100px;
+  width: 100%;
+}
+
+.message {
+  background-color:#9A9483;
+  width: 30%;
+  padding: 9px;
+  margin: 17px 12px;
+  
+  
+  border-radius: 20px;
+}
+
+.left {
+  float: left;
+  clear: both;
+}
+
+.right {
+  float: right;
+  clear: both;
+}
+
+#send-container {
+  width: 65.2%;
+  display: flex;
+  position: relative;
+  padding-top: 10px;
+  margin: auto;
+  top: 5%;
+  text-align: center;
+  
+}
+
+#messageInp {
+  display: none;
+  position: relative;
+  top: 5%;
+}
+.btn {
+  border-radius: 10px;
+  border: 2px solid black;
+  background-color: #9A9483;
+  
+}
+div .foot{
+  background-color:transparent;
+  height: 0px;
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+}
+#master{
+  height: 1000px;
+  
+  background-image: linear-gradient(white,rgb(233, 233, 233,10));
+  
+  padding: 0px;
+  margin: 0px;
+  background-repeat: no-repeat;
+  
+}
